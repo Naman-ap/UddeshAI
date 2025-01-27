@@ -1,0 +1,130 @@
+/* Courses.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  
+  .hero-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #e0e0e0;
+    background-image: url(./img/bgc2.jpg);
+  }
+  
+  .hero-content h2 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .hero-content p {
+    margin: 10px 0 0;
+  }
+  
+  .tags {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  
+  .tags button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .courses {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .course-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .course-item {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 220px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .course-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .course-item:hover img {
+    transform: scale(1.05);
+  }
+  
+  .course-item h3 {
+    font-size: 20px;
+    margin: 15px 0 10px;
+    color: #333;
+  }
+  
+  .course-item p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .course-item p:last-child {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .styled-button {
+    background-color: #ff1493; /* Darker pink background */
+    border: none;
+    color: rgb(22, 245, 52);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.styled-button a {
+    color: rgb(6, 0, 7);
+    text-decoration: none;
+}
+
+.styled-button:hover {
+    background-color: #74c715; /* Even darker pink on hover */
+}
